@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description"
+        content="Prisma SSN | Rasakan Kecepatan Internet Tanpa Gangguan dan Konektivitas Tanpa Batas dengan KAMI: Bebaskan Kekuatan Internet Secepat Kilat!">
+    <meta name="author" content="PT Sintesa Sinergi Nusantara">
+
+    <meta property="og:site_name" content="Prisma SSN" /> <!-- website name -->
+    <meta property="og:site" content="https://sintesa.co.id" /> <!-- website link -->
+    <meta property="og:title" content="Prisma SSN | Layanan Internet Cepat dan Murah untuk Anda" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description"
+        content="Rasakan Kecepatan Internet Tanpa Gangguan dan Konektivitas Tanpa Batas dengan KAMI: Bebaskan Kekuatan Internet Secepat Kilat!" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="https://ik.imagekit.io/taufik/SSN/og/sintesa.jpeg" />
+    <!-- image link, make sure it's jpg -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prisma SSN | Layanan Internet Cepat dan Murah untuk Anda</title>
+    <link rel="icon" href="../images/favicon.svg">
+    <link href="../css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script async src="https://umami.taufikcrisnawan.dev/script.js"
+        data-website-id="0f71bb1e-cfff-4ec8-b192-161f26b9dac4"></script>
+</head>
+
+<body x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
+    x-init="
+           darkMode = JSON.parse(localStorage.getItem('darkMode'));
+           $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+    :class="{'b eh': darkMode === true}">
+    <!-- ===== Header Start ===== -->
+    <header class="g s r vd ya cj" :class="{ 'hh sm _k dj bl ll' : stickyMenu }"
+        @scroll.window="stickyMenu = (window.pageYOffset > 20) ? true : false">
+        <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
+            <div class="vd to/4 tc wf yf">
+                <a href="https://sintesa.co.id">
+                    <img class="om logo" src="../images/ssn.png" alt="Logo Light" />
+                    <img class="xc nm" src="../images/logo-dark.svg" alt="Logo Dark" />
+                </a>
+
+                <!-- Hamburger Toggle BTN -->
+                <button class="po rc" @click="navigationOpen = !navigationOpen">
+                    <span class="rc i pf re pd">
+                        <span class="du-block h q vd yc">
+                            <span class="rc i r s eh um tg te rd eb ml jl dl"
+                                :class="{ 'ue el': !navigationOpen }"></span>
+                            <span class="rc i r s eh um tg te rd eb ml jl fl"
+                                :class="{ 'ue qr': !navigationOpen }"></span>
+                            <span class="rc i r s eh um tg te rd eb ml jl gl"
+                                :class="{ 'ue hl': !navigationOpen }"></span>
+                        </span>
+                        <span class="du-block h q vd yc lf">
+                            <span class="rc eh um tg ml jl el h na r ve yc"
+                                :class="{ 'sd dl': !navigationOpen }"></span>
+                            <span class="rc eh um tg ml jl qr h s pa vd rd"
+                                :class="{ 'sd rr': !navigationOpen }"></span>
+                        </span>
+                    </span>
+                </button>
+                <!-- Hamburger Toggle BTN -->
+            </div>
+
+            <div style="justify-content: flex-end;" class="vd wo/4 sd qo f ho oo wf yf"
+                :class="{ 'd hh rm sr td ud qg ug jc yh': navigationOpen }">
+                <nav>
+                    <ul style="color: rgb(24 28 49);" class="tc _o sf yo cg ep">
+                        <li><a style="font-family: 'Montserrat'; font-weight: 600;" href="https://sintesa.co.id" class="xl">Beranda</a></li>
+                        <li><a style="font-family: 'Montserrat'; font-weight: 600;" href="https://sintesa.co.id/#layanan"
+                                class="xl">Layanan</a>
+                        </li>
+                        <li><a style="font-family: 'Montserrat'; font-weight: 600;" href="https://sintesa.co.id/#paket" class="xl">Paket</a>
+                        </li>
+                        <li><a style="font-family: 'Montserrat'; font-weight: 600;" href="https://sintesa.co.id/#hubungi" class="xl">Hubungi
+                                Kami</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== Header End ===== -->
+
+    <main>
+
+        <!-- ===== Team Start ===== -->
+        <section id="paket" style="padding-top: 3rem;" class="i pg ji gp uqee">
+            <!-- Bg Shapes -->
+            <span class="rc h s r vd fd/5 fh rm"></span>
+            <img src="../images/shape-09.svg" alt="Shape" class="of h y z/2" />
+            <img src="../images/shape-10.svg" alt="Shape" class="h _ aa" />
+            <img src="../images/shape-11.svg" alt="Shape" class="of h m ba" />
+
+
+            <!-- ===== Contact Start ===== -->
+            <section id="hubungi" class="i pg fh rm ji gp uq" style="padding-top: 2rem;">
+                <!-- Section Title Start -->
+                <div
+                    x-data="{ sectionTitle: `Periksa Ketersediaan`, sectionTitleText: `Untuk pendaftaran layanan SSN dan pengecekan ketersediaan jaringan SSN di rumah Kamu.`}">
+                    <div class="animate_top bb ze rj ki xn vq">
+                        <h2 style="color: #284da0; padding-top: 2rem;" x-text="sectionTitle"
+                            class="fk vj pr kk wm on/5 gq/2 bb _b">
+                        </h2>
+                        <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+                    </div>
+
+
+                </div>
+                <!-- Section Title End -->
+
+                <div class="i va bb ye ki xn wq jb mo">
+                    <div class="tc uf sn tf rn un zf xl:gap-10">
+                        <div class="animate_top w-full nn/5 vo/3 vk sg hh sm yh tq"
+                            style="margin-left: auto; margin-right: auto; margin-bottom: 3rem;">
+                            <div class="tc sf yo ap zf ep qb" style="font-family: 'Montserrat';">
+                                <div class="vd to/2">
+                                    <label class="rc ac" for="fullname">Nama Lengkap</label>
+                                    <input type="text" name="fullname" id="nama1" placeholder="Ahmad Saputra Kurniawan"
+                                        class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 xi mi" />
+                                </div>
+
+                                <div class="vd to/2">
+                                    <label class="rc ac" for="email">Email</label>
+                                    <input type="email" name="email" id="email1" placeholder="example@gmail.com"
+                                        class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 xi mi" />
+                                </div>
+                            </div>
+
+                            <div class="tc sf yo ap zf ep qb">
+                                <div class="vd to/2">
+                                    <label class="rc ac" for="phone">Nomor Telepon</label>
+                                    <input type="text" name="phone" id="no1" placeholder="081234567899"
+                                        class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 xi mi" />
+                                </div>
+
+                                <div class="vd to/2">
+                                    <label class="rc ac" for="subject">Pilih Paket</label>
+                                    <select id="pilihpaket1" class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 xi mi">
+                                        <option value="PRISMA 10">PRISMA 10</option>
+                                        <option value="PRISMA 20">PRISMA 20</option>
+                                        <option value="PRISMA 30">PRISMA 30</option>
+                                        <option value="PRISMA 50">PRISMA 50</option>
+                                        <option value="PRISMA 100">PRISMA 100</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div style="margin-bottom: 1rem;">
+                                <label class="rc ac" for="message">Alamat Lengkap</label>
+                                <textarea
+                                    placeholder="XT Square Gedung C2, Jl. Veteran No. 150-151, Pandeyan, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+                                    rows="4" name="message" id="alamat1"
+                                    class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 ci"></textarea>
+                            </div>
+
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label style="font-family: 'Montserrat'; font-size: smaller; " for="vehicle3">Saya
+                                menyatakan bahwa informasi yang telah diberikan adalah benar dan Saya telah membaca
+                                serta menyetujui <a href="https://sintesa.co.id/syarat&ketentuan" target="_blank">syarat
+                                    dan ketentuan yang berlaku untuk berlangganan layanan SSN.</a></label><br><br>
+
+                            <div class="tc xf">
+                                <button onclick="sendEmail()"
+                                    style="background-color: #284da0; font-family: 'Montserrat';"
+                                    class="vc rg lk gh ml il hi gi _l">Daftar Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Contact End ===== -->
+
+
+            <!-- ===== CTA End ===== -->
+    </main>
+
+    <!-- ====== Back To Top Start ===== -->
+    <button style="background-color: #284da0;" class="xc wf xf ie ld vg sr gh tr g sa ta _a"
+        @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+        @scroll.window="scrollTop = (window.pageYOffset > 50) ? true : false" :class="{ 'uc' : scrollTop }">
+        <svg class="uh se qd" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+                d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+        </svg>
+    </button>
+
+    <!-- ====== Back To Top End ===== -->
+
+    <script>
+
+        function sendEmail() {
+
+            if (!document.getElementById('vehicle3').checked) {
+                Toastify({
+                    text: "Harap menyetujui syarat dan ketentuan",
+                    duration: 3000,
+                    newWindow: true,
+                    close: true,
+                    gravity: "top", // `top` or `bottom`
+                    position: "center", // `left`, `center` or `right`
+                    stopOnFocus: true, // Prevents dismissing of toast on hover
+                    style: {
+                        background: "linear-gradient(90deg, #284da0, #489ac0);"
+                    },
+                    onClick: function () { } // Callback after click
+                }).showToast();
+
+                return
+            }
+
+            nama = document.getElementById("nama1").value
+            email = document.getElementById("email1").value
+            notelp = document.getElementById("no1").value
+            paket = document.getElementById("pilihpaket1").value
+            alamat = document.getElementById("alamat1").value
+
+            if (nama == "" || email == "" || notelp == "" || paket == "" || alamat == "") {
+                Toastify({
+                    text: "Mohon melengkapi semua isian form",
+                    duration: 3000,
+                    newWindow: true,
+                    close: true,
+                    gravity: "top", // `top` or `bottom`
+                    position: "center", // `left`, `center` or `right`
+                    stopOnFocus: true, // Prevents dismissing of toast on hover
+                    style: {
+                        background: "linear-gradient(90deg, #284da0, #489ac0);"
+                    },
+                    onClick: function () { } // Callback after click
+                }).showToast();
+
+                return
+            }
+
+            haj = `nama:${nama}&notelp:${notelp}&email:${email}&paket:${paket}&alamat:${alamat}`
+            console.log(haj)
+            alert('Terimakasih telah bersedia cek ketersediaan, kami akan segera menghubungi anda melalui WhatsApp Marketing!')
+
+            const url = "https://long-ruby-dolphin-robe.cyclic.app/email/send"
+            let xhr = new XMLHttpRequest()
+            xhr.open('POST', url, false)
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+            xhr.send(`nama=${nama}&notelp=${notelp}&email=${email}&paket=${paket}&alamat=${alamat}`);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    console.log("Post successfully created!")
+                }
+            }
+        }
+
+        const setup = () => {
+            return {
+                isNavOpen: false,
+
+                billPlan: 'monthly',
+
+                plans: [
+                    {
+                        price: "Rp150.000/bulan",
+                        mbps: 10,
+                        name: 'Starter',
+                        features: ['Fiber Optik', 'Kuota Tanpa Batas', 'Tanpa FUP', 'Perangkat WIFI'],
+                    },
+                    {
+                        price: "Rp200.000/bulan",
+                        mbps: 20,
+                        name: 'Starter',
+                        features: ['Fiber Optik', 'Kuota Tanpa Batas', 'Tanpa FUP', 'Perangkat WIFI'],
+                    },
+                    {
+                        price: "Rp250.000/bulan",
+                        mbps: 30,
+                        name: 'Starter',
+                        features: ['Fiber Optik', 'Kuota Tanpa Batas', 'Tanpa FUP', 'Perangkat WIFI'],
+                    },
+                    {
+                        price: "Rp350.000/bulan",
+                        mbps: 50,
+                        name: 'Growth Plan',
+                        features: ['Fiber Optik', 'Kuota Tanpa Batas', 'Tanpa FUP', 'Perangkat WIFI'],
+                    },
+                    {
+                        price: "Rp400.000/bulan",
+                        mbps: 100,
+                        name: 'Business',
+                        features: ['Fiber Optik', 'Kuota Tanpa Batas', 'Tanpa FUP', 'Perangkat WIFI'],
+                    },
+                ],
+            };
+        };
+
+    </script>
+    <script defer src="../js/bundle.js"></script>
+</body>
+
+</html>
